@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/barra de navegacion.css">
+    <link rel="stylesheet" href="../estilos/cinta de productos.css">
+    <link rel="stylesheet" href="../estilos/tarjetas.css">
+    <link rel="stylesheet" href="../estilos/slider.css">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .post-navbar{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #mostrar-producto {
+            width:50%;
+            height: auto;
+            background: rgb(186, 190, 195);
+            margin-top: 8%;
+            margin-bottom: 8%;
+            padding: 2%;
+            border-radius: 10px;
+        }
+        #cajita {
+            margin-bottom: 5%;
+        }
+    </style>
+    <script defer src="../scripts/dirigirAlProductos.js"></script>
+    <script defer src="../scripts/mostrarProducto.js"></script>
+    <script defer src="../scripts/menu.js"></script>
+    <title>informacion producto</title>
+</head>
+<body>
+    <div class="navegacion">
+        <div class="presentacion" id="hero">
+            <a href="index.html">
+                <img src="../src/logotipo.png" alt="logotipo">
+            </a>
+            <h1>PC PARADISE</h1>
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="conocenos.html">¿Quiénes somos?</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="navegacion-complementaria">
+                <a href="carrito.html">🛒</a>
+                <a href="iniciarSesion.html">🙍‍♂️</a>
+                <button id="hamburguesa">☰</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="post-navbar">
+        <div id="mostrar-producto"></div>
+    </div>
+
+    <div id="cajita">
+        <div class=" slider-box">
+            <div class="lista-slider">
+    
+                <div class="producto promociones elemento-slide" id="producto-promocion1">
+                    <div class="imagen">
+                        <img src="../src/promocion/promocion1.jpg" class="imagen-promocion">
+                        <h3>Procesador Intel Core i7-10700K</h3>
+                    </div>
+                    <div>
+                        <h4>Características</h4>
+                        <ul>
+                            <li>8 núcleos</li>
+                            <li>16 hilos</li>
+                            <li>frecuencia máxima 5.1GHz</li>
+                        </ul>
+                        <div class="precio">
+                            <p>Antes: $5409.00</p>
+                            <b>AHORA: $4599.00</b>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="producto promociones elemento-slide" id="producto-promocion2">
+                    <div class="imagen">
+                        <img src="../src/promocion/promocion2.jpg" class="imagen-promocion">
+                    </div>
+                    <h3>Tarjeta Gráfica NVIDIA GeForce RTX 3070</h3>
+                    <h4>Características</h4>
+                    <ul>
+                        <li>8GB GDDR6</li>
+                        <li>5888 núcleos CUDA</li>
+                        <li>tecnología de trazado de rayos</li>
+                    </ul>
+                    <div class="precio">
+                        <p>Antes: $6300.00</p>
+                        <b>AHORA: $5499.00</b>
+                    </div>
+                </div>
+       
+                <div class="producto promociones elemento-slide" id="producto-promocion3">
+                    <div class="imagen">
+                        <img src="../src/promocion/promocion3.jpg" class="imagen-promocion">
+                    </div>
+                    <h3>Memoria RAM Corsair Vengeance RGB Pro 16GB (2 x 8GB) DDR4 3200MHz</h3>
+                    <h4>Características</h4>
+                    <ul>
+                        <li>Iluminación RGB</li>
+                        <li>latencia de 16-18-18-36</li>
+                        <li>disipador de calor</li>
+                    </ul>
+                    <div class="precio">
+                        <p>Antes: $2021.99</p>
+                        <b>AHORA: $1399.00</b>
+                    </div>
+                </div>
+    
+                <div class="producto promociones elemento-slide" id="producto-promocion4">
+                    <div class="imagen">
+                        <img src="../src/promocion/promocion4.jpg" class="imagen-promocion">
+                    </div>
+                    <h3>Placa Base ASUS ROG Strix B550-F Gaming (Wi-Fi 6)</h3>
+                    <h4>Características</h4>
+                    <ul>
+                        <li>Soporte para Ryzen 3000 y 5000</li>
+                        <li>PCIe 4.0</li>
+                        <li>Wi-Fi 6</li>
+                    </ul>
+                    <div class="precio">
+                        <p>Antes: $3489.00</p>
+                        <b>AHORA: $2599.00</b>
+                    </div>
+                </div>
+     
+                <div class="producto promociones elemento-slide" id="producto-promocion5">
+                    <div class="imagen">
+                        <img src="../src/promocion/promocion5.jpg" class="imagen-promocion">
+                    </div>
+                    <h3>Unidad de Estado Sólido (SSD) Samsung 970 EVO Plus 1TB</h3>
+                    <h4>Características</h4>
+                    <ul>
+                        <li>NVMe</li>
+                        <li>velocidad de lectura de hasta 3,500 MB/s</li>
+                        <li>velocidad de escritura de hasta 3,300 MB/s</li>
+                    </ul>
+                    <div class="precio">
+                        <p >Antes: $3040.00</p>
+                        <b>AHORA: $1499.00</b>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+    <footer>
+        <div class="elemento-footer">
+            <img src="../src/logotipo.png" alt="logotipo">
+        </div>
+        <div class="elemento-footer">
+            <a href="https://www.instagram.com/">IG</a>
+            <a href="https://www.facebook.com/">FB</a>
+            <a href="https://twitter.com/?lang=es">X</a>
+        </div>
+        <p>Gracias por usar PC PARADISE <b>"potencia sin limites"</b></p>
+        <p>PC PARADISE 2024, todos los derechos reservado</p>
+    </footer>
+</body>
+</html>

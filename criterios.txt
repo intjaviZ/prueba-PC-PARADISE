@@ -1,0 +1,13 @@
+Criterios a evaluar en la página Web:
+•	Menú (Promociones, Línea 1, Línea 2, Línea 3, Quienes somos, Contáctanos, Registro)
+•	Menú fijo desplegable como encabezado, oculto 
+•	Pestaña Home con Slider de promociones (los productos con precio atractivo) y demás productos en la parte inferior (10)
+•	Incluir un vídeo sobre la empresa en Quienes somos…
+•	Quienes somos… debe tener bien diseñado historia, misión, visión, valores (acorde a la empresa), texto atractivo, justificado, no amontonado.
+•	Diseño, creatividad, fondo, colores adecuados
+•	Opción de registro completa (Usuario, correo, contraseña)
+•	Todos los productos deben llevar foto, características y precio
+•	Nombre de la empresa y diseño de logotipo claro, imágenes no pixeleadas en productos
+•	Funcionamiento correcto de todos los links
+
+
